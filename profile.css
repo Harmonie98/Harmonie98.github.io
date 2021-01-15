@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body a {
+	text-decoration: none;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.h-con {
+	padding-top: 20px;
+	width: 100%;
+	overflow: hidden;
+	height: 70px;
+	background-color: orange;
+	border-bottom: 1px solid grey;	
+	z-index: 1;
+}
+
+ul#head {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	display: inline;
+	padding-bottom: 50px;
+}
+
+#logo {
+	font-family: "lucida console";
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+li.user {
+    float: right;
+    margin-right: 50px;
+}
+
+li.user img {
+	cursor: pointer;
+}
+
+section {
+	margin: auto;
+	background-color: #ffffff;
+	height: auto;
+	border: 2px solid #808080;
+	width: 70%;
+	font-size: 17px;
+	font-family: "arial verdana";
+}
+
+ul#usernav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    line-height: 30px;
+    height: 450px;
+    background-color: #f2f2f2;
+}
+
+#usernav li a {
+    display: block;
+    color: #000;
+    padding: 15px 0 8px 20px;
+    text-decoration: none;
+}
+
+#usernav li a.active {
+    color: #ffa500;
+    font-weight: bold;
+    border-right: 2px solid #ffa500;
+}
+
+#usernav li a:hover:not(.active) {
+    background-color: #ffc14d;
+}
+
+.distyle {
+	margin-left: 36%;
+	width: 50%;
+	padding: 50px 0 0 5px;
+	color: black;
+	font-size: 17px;
+	background-color: white;
+	height: 450px;
+}
+
+.forstyle {
+    margin-left: 15.1%;	
+    width: 10%;
+    height: 450px;
+    padding: 45px 48px;
+    background-color: white;
+    position: fixed;
+    text-align: right;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+input[type="text"], [type="email"], [type="password"] {
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	width: 80%;
+	padding: 10px 20px;
+	margin: 10px 0;
+	outline: none;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]:focus, [type="email"]:focus, [type="password"]:focus {
+	border: 2px solid #ffa500;
+	font-size: 15px;
+}
+
+input[type="submit"] {
+	border: none;
+	border-radius: 4px;
+	width: 30%;
+	padding: 10px 20px;
+	margin: 15px 0;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	outline: none;
+	transition: 0.8s;
+	background-color: #ffc14d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);			
+}
+
+input[type="submit"]:hover {
+	background-color: #ffa500;
+	border: none;
+}
+
+h3 {
+	margin-bottom: 15px;
+}
+
+input[type="radio"] {
+	margin-bottom: 20px;
+}
+
+textarea {
+	border-radius: 4px;
+	width: 80%;
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	outline: none;
+	transition: 0.8s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 100px;
+}
+
+textarea:focus {
+	border: 2px solid #ffa500;
+	font-size: 15px;
+}
