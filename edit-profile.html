@@ -1,0 +1,51 @@
+<!DOCTYPE html>	
+<html>	
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="description" content="A website that uses photos to tell stories" />
+	<meta name="keywords" content="comics, photography, creativity, storytelling, drama, sign up, comlive sign up, join comlive" />
+	<link rel="stylesheet" href="./css/profile.css" />
+	<title>Edit Profile</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="h-con">
+			    <ul id="head">
+				    <li id="logo"><a href="index.html">ComLive<a/></li>
+				    <li class="user"><a href="profile.html"><img src="./img/profile.png" style=width:30px; height:30px; /></a></li>
+				    <li class="user"><a href="favorites.html"><img src="./img/heart.png" style=width:30px; height:30px; /></a></li>
+				    <li class="user"><a href="index.html"><img src="./img/homepage.png" style=width:30px; height:30px; /></a></li>
+			    </ul>
+		    </div>
+		</nav>
+	</header>
+
+	<section>
+		<ul id="usernav">
+			<li><a class="active" href="edit-profile.html">Edit Profile</a></li>
+			<li><a href="change-password.html">Change Password</a></li>
+			<li><a href="delete-acct.html">Delete Account</a></li>
+			<li><a href="#">Log Out</a></li>
+		</ul>
+		<div class="forstyle">
+			<label for="fullname">Name</label>
+			<label for="username">Username</label>
+			<label for="email">Email</label>
+		</div>
+		<div class="distyle">
+		    <form>
+			    <input type="text" id="fullname" name="fullname" value="Name Surname" />
+			    <br />
+			    <input type="text" id="username" name="username" value="coolusername1" />
+			    <br />
+			    <input type="email" id="email" name="email" value="youremail@email.com" />
+			    <br />
+			    <input type="submit" value="Save changes" />
+            </form>
+        </div>
+	</section>
+
+</body>
+</html>
